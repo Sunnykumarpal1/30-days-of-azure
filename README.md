@@ -1,2 +1,8 @@
 # 30-days-of-azure
-Here in this 30 days of azure i will be learning azure fundamentals 
+My main goal is that i should prepare myself for Az-900 exam and learn the basics of cloud computing
+ 
+# day 1 of azure 
+ 
+* Introduction to cloud computing
+ 
+
