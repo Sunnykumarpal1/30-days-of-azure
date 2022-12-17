@@ -66,8 +66,8 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
     * Sometimes we even us Vm when they are not web or mobile application
    
  iii) Azure Container instace
+ 
      *This are self containde software environment.
-     
      *Container are like Vm except they don't contain Operating system.So it's weight is less than Vm so it's easiest way to deploy .
      *Container they run on Vm.
   
