@@ -53,15 +53,8 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
      * Storage
      * Networking
  
-   Compute contain :-
-
-    Azure VMs
-    Azure App Service
-    Azure Container Instances
-    Azure Kubernetes Service
-    Azure functions
-    
-# 1) Compute;-
+  
+ # 1) Compute;-
 
    i) Virtual Machine:- Azure VM are known as  IAAS(Infrastructure as a serivce).
       Eg;- If we are running an application on  on-premisi infrastructure we can move it to azure by Lift and Shift.
@@ -89,6 +82,22 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
     * it is like azure app service
     * It executes the individual function rather than entire application .In this we only when the azure function is running.
  
-    
- 
+  # 2) STORAGE
+  
+  ## i)Blob storage:- 
+     
+     * it is the simplest storage .It does not having hierarchcal folder structure.
+     * it contain unstructured data like photos, video , log files.
+     
+     It has multiple access tier's 
+      i) Hot :- fresqtly acdess
+      ii cold :- infrastructure access
+      iii) Archieve;- rarely accessed.
+      
+      
+   ## ii) Azure file store  
+      * they ate used for stuctured file storange
+      
+   ##  iii) Azure data lake storage gen2
+       * They are use for stuctured file storag3.
 
