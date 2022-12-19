@@ -100,7 +100,7 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
       
    ##  iii) Azure data lake storage gen2
        * They are use for stuctured file storage(hierarchical file storage).
-   #DAY 3 OF Azure  
+ # DAY 3 OF Azure  
    ## RELATIONAL DATABASES
     i) Azure sql databases
     2) Azure db for mysql
@@ -113,7 +113,8 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
     
   # NETWORK
   #### i) VNET
-  * The VM are connected together . A virtual network is similar to On- premises network . 
+  * The VM are connected together in a group to form a vnet  . 
+  * A virtual network is similar to On- premises network . 
   * Each vm in a vnet get a Ip address so that they can communicate to other vm.
   #### ii) subnet 
   * We can divide the vnet into subnet and defines routes how the traffic should flow between them .
