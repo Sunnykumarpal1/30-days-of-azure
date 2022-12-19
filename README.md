@@ -96,19 +96,35 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
       
       
    ## ii) Azure file store  
-      * they are used for stuctured file storage(hierarchical file storage)
+      * They are used for stuctured file storage(hierarchical file storage)
       
    ##  iii) Azure data lake storage gen2
        * They are use for stuctured file storage(hierarchical file storage).
-     
-    ## RELATIONAL DATABASES
+   #DAY 3 OF Azure  
+   ## RELATIONAL DATABASES
     i) Azure sql databases
     2) Azure db for mysql
     3) Azure  db for maria db
     4) azure db for postresql
      
-    ## NO SQL database
-    1) azure cosmos db
-    2) azure cache for reddis
+   ## NO SQL database
+    1) Azure cosmos db
+    2) Azure cache for reddis
     
-
+  # NETWORK
+  #### i) VNET
+  * The VM are connected together . A virtual network is similar to On- premises network . 
+  * Each vm in a vnet get a Ip address so that they can communicate to other vm.
+  #### ii) subnet 
+  * We can divide the vnet into subnet and defines routes how the traffic should flow between them .
+  * By default all the outbound traffic is from VM to internet is allowed.
+  *  For inbound traffic we need to assign public Ip address to Vm.
+  #### iii) Vnet Peering
+  *If we want VM of one vnet to communicate to vm of another vnet we can do using vnet peering.
+  #### iv) VPN(VIRTUAL PRIVATE NETWORK)
+  * If we want a secure connection between Vnet and On-premises network we can use Virtual private network.
+  * VPN:it sends encypted traffic over the public internet.
+ #### v) Express Route
+ * It is expensive than VPN.
+ * There is dedicated connection between Vnet and On-premises , high Speed and reliable.
+ * 
