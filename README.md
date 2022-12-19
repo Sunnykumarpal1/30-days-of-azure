@@ -111,7 +111,7 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
     1) Azure cosmos db
     2) Azure cache for reddis
     
-  # NETWORK
+  # NETWORKING
   #### i) VNET
   * The VM are connected together in a group to form a vnet  . 
   * A virtual network is similar to On- premises network . 
