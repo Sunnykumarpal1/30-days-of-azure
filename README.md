@@ -96,8 +96,19 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
       
       
    ## ii) Azure file store  
-      * they ate used for stuctured file storange
+      * they are used for stuctured file storage(hierarchical file storage)
       
    ##  iii) Azure data lake storage gen2
-       * They are use for stuctured file storag3.
+       * They are use for stuctured file storage(hierarchical file storage).
+     
+    ## RELATIONAL DATABASES
+    i) Azure sql databases
+    2) Azure db for mysql
+    3) Azure  db for maria db
+    4) azure db for postresql
+     
+    ## NO SQL database
+    1) azure cosmos db
+    2) azure cache for reddis
+    
 
