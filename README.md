@@ -128,4 +128,32 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
  #### v) Express Route
  * It is expensive than VPN.
  * There is dedicated connection between Vnet and On-premises , high Speed and reliable.
+ # DAY 4 OF AZURE FUNDAMENTALS
+# Azure Services
+ ## 1) Migration
+#### i) Azure migrate
+ * It discovers your On-premises server   both physical and virtual.
+ * It assess (evaluates) these machines.
+ * Form each one it tells 
+   i) Whether or not it's ready to migrate .
+   II) How big the azure vm should be.
+   III) How much it will cost.l
+   IV) Any dependent server that will also need to be migrated.if it's ready then it will help you in the migration.
+ * Azure migrate will integrate with other tools like sql, server,web apps to migrate.
+
+#### ii) Azure active directory
+ * It manges the identities that take care of authentication.
+ *  There are many option for synchronizing On-premisis active directory to azure active directory.
  
+ # 2) DEVOPS
+ * using devops we can automate the building,testing and relesing of application update.
+ 
+ ### i) Azure pipeline
+ * It is the most important service.
+ * Using azure pipeline we can create the automated workflow to continously build, test and deploy code.
+ ### ii) Azure Devtest Labs
+ * It gives some extra capabilites  for eg it allows the admin to control the cost by setting a limit how many Vm's can be deployed at once and ensuring that Vm should shout down when they are not in use.
+### iii) Azure CDN(Content Delivery Network)
+* It is used for speeding the responsiveness of our application.
+* It helps to take advantage of microsoft extensive networks.
+* It caches the most frequently accessed content from the location around the world so that your  end user can retrive the content from the closest point from network which helps in making your web application  feels like local network.
