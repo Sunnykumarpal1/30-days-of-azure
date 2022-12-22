@@ -157,6 +157,8 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
 * It is used for speeding the responsiveness of our application.
 * It helps to take advantage of microsoft extensive networks.
 * It caches the most frequently accessed content from the location around the world so that your  end user can retrive the content from the closest point from network which helps in making your web application  feels like local network.
+# DAY5 OF AZURE FUNDAMENTALS
+
 # 3) Azure IOT
   * Microsoft offers a suite of services to organisations to connect, monitor and control IOT devices using 
    # i) Azure IOT central:- 
@@ -189,3 +191,7 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
  ### iii) Azure Synapse Analytics;- 
   * It's new version of Azure SQL DataWare House functionality  and  it also supports Spark.
  
+# 5) Artifical Intelligence
+ * Here we feed lots of real world data in programs and programs maek generlization about the data this is  known as training a model . When it's give new data it uses this generlizations.
+  Eg:- Netflix gives recommentdation of movies to us using this generlization.
+  services
