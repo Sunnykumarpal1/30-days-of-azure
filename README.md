@@ -175,4 +175,17 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
        * Azure spher cloud security
        they provide layers of protection to our IOT devices.
  # 4) Analytics
-  * 
+   * Apache Spark is the king 
+ ### i) Azure HDinsight:- 
+ 
+   * It supports open source big data frame works such as
+      * Hadoop 
+      * Spark
+      * Hive
+      * Storm
+ ### ii) Azure Databricks :-
+  * It runs similar to HDinsight because it support Spark and it's more user friendly and easier to manage.
+ 
+ ### iii) Azure Synapse Analytics;- 
+  * It's new version of Azure SQL DataWare House functionality  and  it also supports Spark.
+ 
