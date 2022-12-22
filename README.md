@@ -157,3 +157,22 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
 * It is used for speeding the responsiveness of our application.
 * It helps to take advantage of microsoft extensive networks.
 * It caches the most frequently accessed content from the location around the world so that your  end user can retrive the content from the closest point from network which helps in making your web application  feels like local network.
+# 3) Azure IOT
+  * Microsoft offers a suite of services to organisations to connect, monitor and control IOT devices using 
+   # i) Azure IOT central:- 
+    * Which is fully managed Software-as-a-service(Saas) solution.
+    * It  let's us create IOT application without writing any code.
+   # ii) Azure IOT hub
+   * If we need to create more customized applications then we can use azure IOT hub.
+   * It handles secure communication for IOT devices.
+   * IOT central uses IOT hub behind it's scene.
+   # iii) Azure sphere
+    
+    * We can use Azure sphere to make our IOT devices more secure.
+    * it includes
+       * Certified chips 
+       * Azure sphere OS
+       * Azure spher cloud security
+       they provide layers of protection to our IOT devices.
+ # 4) Analytics
+  * 
