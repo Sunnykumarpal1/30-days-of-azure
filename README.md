@@ -190,8 +190,34 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
  
  ### iii) Azure Synapse Analytics;- 
   * It's new version of Azure SQL DataWare House functionality  and  it also supports Spark.
- 
+ # DAY O6 OF AZURE FUNDAMENTALS
 # 5) Artifical Intelligence
  * Here we feed lots of real world data in programs and programs maek generlization about the data this is  known as training a model . When it's give new data it uses this generlizations.
   Eg:- Netflix gives recommentdation of movies to us using this generlization.
   services
+## i) Azure conginitivee Service
+ * It consist of pre-built AI tools . 
+ * We can add AI  capabilities to the Application evenif we don't know thing about AI.
+    Types of Azure conitive service 
+    i) Decision 
+    ii) Language 
+    iii) Speech 
+    iv) Vision 
+    v) WebSearch
+    Here vision category includes vision API which can classify images and face API  which can detect faces in images.
+ ### ii) Azure Bot SErvice 
+  * It gives tool to create chat bot which is an intelligent  chatbot 
+  * Which can handle simple support request for customers.
+ ### iii) Azure Machine Learning Studio
+ * If we have basic knowledge of ML then we can try ML studio.
+ * Which lets us train and deploy models without coding using drag and drop.
+ ### iv) Azure ML Service 
+ * It gives full control of ML service like train, Packages, monitor ,deploy, validate.
+ * we can use python based  framework such as tensor flow or pytorch.
+ * Train model using Azure Databricks 
+ * Deploy Azure kubernetes Service.
+ * It is the best solution when you need to build own customer AI application.
+### v) Integration
+For eg;- If we are using Blob storage and we are storing something in Blob storage and we need the notifications when the documents arrive we use Azure logic apps 
+to to automate this kind of task using drag and drop.
+* We also use event grid to notify the azure logic app for event occurance.
