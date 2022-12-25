@@ -221,3 +221,38 @@ My main goal is that i should prepare myself for Az-900 exam and learn the basic
 For eg;- If we are using Blob storage and we are storing something in Blob storage and we need the notifications when the documents arrive we use Azure logic apps 
 to to automate this kind of task using drag and drop.
 * We also use event grid to notify the azure logic app for event occurance.
+# DAY 07 OF AZURE FUNDAMENTALS
+# MANAGING SERVICES
+## i) Azure Monitor :- 
+   * It is used to track what's happening with your azure resources.
+   * azure monitor is collection of monitoring tools.
+   * Core features of monitor are 
+    i) Matrix
+    ii) Alerts
+  #### i) Matrix :-
+   *  It's statistic on aspects like resources such as CPU used on Vm and space used on Blob storage.
+   *   Azure monitors creates a graphs showing how this matrix have changed over time.
+   *   It can also used to watch critical matrix which we specify and send us the alert if their is any problem.
+  #### ii) Alert
+  * Here we Create alert for planned and unplanned outages.
+  ## ii) Azure Backup
+  * It's always a good idea to have a back up of services this helps to recover from service failures.
+  * Most azure services they have their own built in back up capabilities like Cosmos DB.
+  * Here Azure vm are different from Cosmos DB because we back then using Azure Backup .
+  * We can also use this service to back up our On-premises System.
+  ## iii) Azure Advisor
+  * It will us how to improve the Performance and availability of our application and how to reduce cost.
+  *  Eg:- If azure advisor finds any unutilized VM then it us suggests to use smaller VM and less costly VM to perform same task.
+  *  Azure advisor it also provides Security Recommandation .
+  *  Azure advisor gets security recommandation from Microsoft defender for cloud.
+  ## iv) Microsoft Defender for Cloud
+  * It is formerly known as Azure security Center.
+  * It gather security Information from resource across our subscription and access our vulnerability.
+  ## v) Azure policy
+  * We can create our own custom policies from scratch .
+  ## vi) ARM (AZURE RESOURCE MANAGER) TEMPLATE
+  * When we create ARM template it specifies configuration details for one or more resources.
+  ## vii) Azure Blue Print
+  * It lets us Automate the entire deployment environment.
+  * It is a collection Arm template with few details like policy,user permission.
+  * When blue print is assigned to subsription it not only automate the creation of environment but also keeps the record of deployment.
