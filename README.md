@@ -273,7 +273,7 @@ to to automate this kind of task using drag and drop.
   * Azure updates infrastructure underlying and reboots the VM 
  ### 2) UnPlanned downtime
   * When VM goes down Unexpectedly when it has hardware failure.
-## To handle planned downtime 
+### To handle planned downtime 
   ### Availability Set Groups :- 
   * It uses Update domain.
   * Azure perform planned maintenance, it Updates one domain at a time .
