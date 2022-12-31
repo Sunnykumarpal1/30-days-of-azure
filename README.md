@@ -257,7 +257,7 @@ to to automate this kind of task using drag and drop.
   * It is a collection Arm template with few details like policy,user permission.
   * When blue print is assigned to subsription it not only automate the creation of environment but also keeps the record of deployment.
   
-#DAY 08 OF AZURE FUNDAMENTALS
+# DAY 08 OF AZURE FUNDAMENTALS
  #Azure Virutuel Machine Availability and Scalabilty
  * Virtual machine have gone from revlutionary to being a standard part of every organization infrastructure but now containers are revoutionary technology.
  * VM it gives full control over the 
@@ -273,5 +273,19 @@ to to automate this kind of task using drag and drop.
   * Azure updates infrastructure underlying and reboots the VM 
  ### 2) UnPlanned downtime
   * When VM goes down Unexpectedly when it has hardware failure.
- To handle planned downtime 
-  ## Availability Set Groups :- j
+## To handle planned downtime 
+  ### Availability Set Groups :- 
+  * It uses Update domain.
+  * Azure perform planned maintenance, it Updates one domain at a time .
+  * so that VM of one domain is being rebooted while VM of another update domain keeps running.
+  * We can configure upto 20 update domain in a avialability set.
+ ### To handle unplanned downtime:- 
+  * It is also handled in a similar way but we will use fault domain.
+  * Each fault domain have separate power source and network switch.
+  * It limits the downtime caused by hardware failure.
+  * Eg:- If there is power failure in one fault domain it does not affect the VM running in other fault domain.
+  * Maximum we can have 2 or 3 fault domain based on our region.
+  * Each Vm is int both update domain and fault domain.
+  * For 99.95% of Uptime guarantees  you must have atleast 2 VM,2 update domains, 2 fault domain . 
+ 
+    
