@@ -256,3 +256,22 @@ to to automate this kind of task using drag and drop.
   * It lets us Automate the entire deployment environment.
   * It is a collection Arm template with few details like policy,user permission.
   * When blue print is assigned to subsription it not only automate the creation of environment but also keeps the record of deployment.
+  
+#DAY 08 OF AZURE FUNDAMENTALS
+ #Azure Virutuel Machine Availability and Scalabilty
+ * Virtual machine have gone from revlutionary to being a standard part of every organization infrastructure but now containers are revoutionary technology.
+ * VM it gives full control over the 
+   i) Software
+   ii) Operating System 
+   Which we want to run. 
+ # High Availability
+ * high availability :- An application it will continue to run in case hardware failure or event causes system to go down .
+   # Services to help with high availability 
+   ## i) Availability Set 
+    * A group of VM that can handle planned and unplanned down time. 
+ ### 1) Planned downtime
+  * Azure updates infrastructure underlying and reboots the VM 
+ ### 2) UnPlanned downtime
+  * When VM goes down Unexpectedly when it has hardware failure.
+ To handle planned downtime 
+  ## Availability Set Groups :- j
