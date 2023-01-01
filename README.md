@@ -287,5 +287,27 @@ to to automate this kind of task using drag and drop.
   * Maximum we can have 2 or 3 fault domain based on our region.
   * Each Vm is int both update domain and fault domain.
   * For 99.95% of Uptime guarantees  you must have atleast 2 VM,2 update domains, 2 fault domain . 
+ # Day 09 of Azure fundamentals
+ ## ii) Availability Zones
+  * It's alternative to availability set . It has a physically separate zones in azure region. 
+  * Not every azure region has availability zones but if it has then it has 3 zones per region.
+  * So to take advantage of availability zones we need to deploy repllication of our application VM in different zones.
+  Most azure region are paired with another region.
+ ## iii) Scalability
+ * Scalability :- We can configure spike and demand is called scalability.
+ * Vertical Scaling :- It switch a individual VM to large size VM.
+     *  It is easy to do .But it has some limits.
+ * Horizontel Scaling:- Is by adding more Vm's 
+     * It's more complicated.
+     * Here we need to architect our applilcation so that it can run accross multiplie identical machines.
+  * Application should save data in shared external datastore.
+## iv) Scale Set
+* VM is distribukted across update domain and fault domain.
+* Automatically Increase or decrease the number of VM according to rule we define
+Eg;- we can say that CPU uses 80% we can add 2 more VM'S.
+*We can use disk and network metrics in our rules.
+* To use guest Operating System metrics enable dignostic extension.
+* WE can put limit for how much it Scale up and Scale down by considering Maximum and minimum number of VM.
+* Scale set is deployed in a single zone called Zonal Scale set.
+* Combining both Scale set and availability zone gives best result.
  
-    
